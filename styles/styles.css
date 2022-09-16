@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+}
+
+
+body{
+    margin: 0;
+    font-size: 24px;
+    
+}
+
+h1{
+    margin: 0;
+}
+
+a {
+    color: red;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    color: red;
+}
+
+
+header{
+    background-color: green;
+    height: 50px;
+}
+
+.header-name{
+    text-align: center;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.content{
+    width: 750px;
+    max-height: 2000px;
+    
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+
+    background-color: blue;
+
+    color: white;
+
+    font-family:monospace;
+}
+
+.content-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+.content-info-paint {
+    width: 150px;
+    height: 150px;
+
+    border: solid;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    float: left;
+
+    margin-right: 20px;
+}
+
+.content-link {
+    text-align: center;
+}
+
+.list-section-name {
+    font-size: 30px;
+
+    word-spacing: 20px;
+    margin-bottom: 5px;
+}
+
+.section-list {
+    list-style: disc;
+    margin-left: 30px;
+
+    font-size: 22px;
+}
+
+.section-item {
+    margin-bottom: 7px;
+}
+
+.section-item:nth-child(2n) {
+    color:aqua;
+    letter-spacing: 10px;
+}
+
+.section-item:last-child{
+    margin-bottom: 20px;
+}
+
+.style-name{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.style-name:last-child{
+    margin-top: 40px;
+}
+
+.styles-section{
+    font-size: 22px;
+
+    max-width: 450px;
+
+    display: inline-block;
+}
+
+.styles-section-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    font-size: 26px;
+}
+
+/* .last-section {
+    display: flex;
+    flex-direction: row;
+ 
+    justify-content: space-between;
+ } */
+ 
+
+
+ 
+.last-section-aside{
+    
+    max-width: 300px;
+
+    margin-left: 120px;
+
+    vertical-align: top;
+
+    display: inline-block;
+}
+
+ .last-section-table {
+    max-height: 20px;
+
+    padding: 1px;
+    border: 1px solid white;
+ }
+ 
+ .table-item {
+    border: 1px solid white;
+    text-align: center;
+    vertical-align: bottom;
+ 
+    width: 55px;
+    height: 40px;
+
+}
+
+.last-section-image{
+    float: right;
+
+    margin-top: 15px;
+
+    height: 30px;
+    width: 30px;
+}
+
+.footer {
+    background-color: green;
+    height: 50px;
+
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+    padding-top: 13px;
+}
+
+
+
+
+
