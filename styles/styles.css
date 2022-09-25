@@ -57,7 +57,7 @@ header{
 
     color: white;
 
-    font-family:monospace;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .content-title {
@@ -192,6 +192,8 @@ header{
 .footer-text {
     color: white;
     padding-top: 13px;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
